@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'at https://tranquil-chamber-05112.herokuapp.com/v1/task/';
+  var apiRoot = 'https://tranquil-chamber-05112.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
